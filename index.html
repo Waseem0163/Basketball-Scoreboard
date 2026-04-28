@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="child-one">
+            <div class="home">
+                <h1>HOME</h1>
+                <p class="count" id="countHome">0</p>
+                <div class="btns">
+                    <p id="addOneHome" onclick="addOneH()">+1</p>
+                    <p id="addTwoHome" onclick="addTwoH()">+2</p>
+                    <p id="addThreeHome" onclick="addThreeH()">+3</p>
+                </div>
+            </div>
+            <div class="guest">
+                <h1>GUEST</h1>
+                <p class="count" id="countGuest">0</p>
+                <div class="btns">
+                    <p id="addOneGuest" onclick="addOneG()">+1</p>
+                    <p id="addTwoGuest" onclick="addTwoG()">+2</p>
+                    <p id="addThreeGuest" onclick="addThreeG()">+3</p>
+                </div>
+            </div>
+        </div>
+        <button id="newBtn" onclick="newGame()">New Game</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
